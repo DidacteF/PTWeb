@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" media="screen" href="./css/reset.css">
+	<link rel="stylesheet" media="screen" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap Core CSS -->
+    <!--- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	
+	<title>Portfolio</title>
+</head>
+
+<body>
+ <div class="intro">
+    <!-- Menu -->
+  <div class="menu">
+   <nav>
+       <li>
+       <a href="#contact">Me contacter</a>
+       </li>
+       <li>
+           <a href="#portfolio">Mon Portfolio</a>
+       </li>
+       <li>
+           <a href="#competences">Mes compétences</a>
+       </li>
+       <li>
+           <a href="#qui">Qui suis-je ?</a>
+       </li>
+   </nav>
+    </div>
+    <!-- FIN Menu -->
+    
+    <!-- Logo -->
+    <section class="clearfix container">
+        <div class="logo">
+            <img class="flo" src="./img/V4.png">
+        </div>
+        <h1 class="monteur">Réalisateur et monteur vidéo</h1>
+        <a href="#qui"><img class="scroll" src="./img/scr_down.png"></a>
+     </section>
+    <!-- FIN Logo -->
+     
+    </div>
+    
+    <!-- Qui -->
+    <section class="container">
+       <div class="qui" id="qui">
+        <h1>Qui suis-je ?</h1>
+           <img src="img/Sans-titre-1.png" class="photo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed mi at dolor gravida aliquam at id turpis. Praesent in orci mi. Maecenas eget facilisis leo, nec interdum quam. Vivamus non erat auctor, porta nibh ac, porta sem. Suspendisse nisl nulla, mattis id suscipit in, eleifend sit amet dui. Cras mattis odio in quam vehicula ultrices. Proin a quam ac felis vulputate tempus et eu metus. Pellentesque sit amet diam in mauris pharetra molestie ac commodo leo. Quisque a mi auctor, elementum tellus ut, sollicitudin ipsum. In sed volutpat diam. Pellentesque ipsum dui, elementum et suscipit sed, euismod ut nisl. Nulla facilisi.</p>
+        <a download="CV" href="./files/PP2_Schotter_Florian.pdf">Téléchargez mon CV</a>
+        </div>
+    </section>
+    <!-- FIN Qui -->
+    
+    <!-- Compétences -->
+    <section class="container">
+        <div class="competences" id="competences">
+           <h1>Mes compétences</h1>
+            <div class="wrapp-progress">
+                <p class="pull-left">ADOBE PREMIERE PRO</p> 
+                <div class="progress">
+                    <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="precent-value"></span>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapp-progress">
+                <p class="pull-left">ADOBE AFTER EFFECT</p> 
+                <div class="progress">
+
+                    <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="precent-value"></span>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapp-progress">
+                <p class="pull-left">ILLUSTRATOR</p> 
+                <div class="progress">
+
+                    <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="precent-value"></span>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapp-progress">
+                <p class="pull-left">PHOTOSHOP</p> 
+                <div class="progress">
+
+                    <div class="progress-bar  clearfix" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                        <span class="precent-value"></span>
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN Compétences -->
+    
+    <!-- Portfolio -->
+    <section class="container">
+        <div class="portfolio" id="portfolio">
+            <h1>Mon Portfolio</h1>
+            <div class="wrapper portfolio">
+                <nav class="tri">
+                    <ul>
+                        <li id="all" class="active">Tout</li>
+                        <li id="audiovisuel">Audiovisuel</li>
+                        <li id="graphisme">Graphisme</li>
+                        <li id="web">Web</li>
+                    </ul>
+                    <div class="clear"></div>
+                </nav>
+            </div>
+            <a class="item print">
+                <h3 class="item-title">Titre de mon élément</h3>
+                <hr class="hr-title-top">
+                <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta minus quo, officia culpa explicabo, eum sint sapiente voluptas vel, voluptatum tempore veniam consequuntur rem mollitia magnam ipsum eaque est!</p>
+                <hr class="hr-title-bot">
+                <button class="view-more">View more</button>
+                <div class="black-overlay"></div>
+                <div class="background" style="background:url('img/01.jpeg')"></div>
+            </a>
+        </div>
+    </section>
+    <!-- FIN Portfolio -->
+    
+    <!-- Contact -->
+    <section class="clearfix container">
+        <div class="contact" id="contact">
+            <h1>Me contacter</h1>
+            <form action="mailto:florian.schotter@g.com" method="post" name="contact">
+                <input type="text" name="nom" placeholder="Nom">
+                <br>              
+                <input type="text" name="mail" placeholder="E-mail">
+                <br>              
+                <input type="text" name="sujet" placeholder="Sujet">
+                <br>              
+                <textarea id="message" placeholder="Entrez votre texte"></textarea>
+                <br>
+                <button type="submit">Envoyer</button>
+        </div>
+    </section>
+    <!-- FIN Contact -->
+    
+    
+    <!-- Javascript -->
+    
+</body>
+</html>
